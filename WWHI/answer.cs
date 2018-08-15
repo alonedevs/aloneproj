@@ -9,19 +9,22 @@ namespace WWHI
 {
     class answer
     {
-        static string []Answers;
-        static void GetArray()
+        static List<string> Answers = new List<string>();
+        public static void GetArray()
         {
-            StreamReader fs = new StreamReader(@"answers.txt");
-            for (int i = 0; i < fs.ReadToEnd().Length; i++)
+            using (StreamReader fs = new StreamReader("answers.txt", System.Text.Encoding.Default))
             {
-                Answers[i] = fs.ReadLine();
+                string str;
+                while ((str = fs.ReadLine()) != null)
+                {
+                    Answers.Add(str);
+                }
             }
         }
         public static string GetAnswer()
         {
-
-            return null;
+            Random rand = new Random();
+            return Answers[rand.Next(Answers.Count)];
         }
     }
 }

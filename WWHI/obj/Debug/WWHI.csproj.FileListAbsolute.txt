@@ -1,0 +1,7 @@
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\bin\Debug\WWHI.exe.config
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\bin\Debug\WWHI.exe
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\bin\Debug\WWHI.pdb
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\obj\Debug\WWHI.csprojAssemblyReference.cache
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\obj\Debug\WWHI.csproj.CoreCompileInputs.cache
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\obj\Debug\WWHI.exe
+C:\Users\George\Documents\Development\Projects\aloneproj\WWHI\obj\Debug\WWHI.pdb

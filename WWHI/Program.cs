@@ -10,8 +10,13 @@ namespace WWHI
     {
         static void Main(string[] args)
         {
-            Console.ReadLine();
-            Console.WriteLine(answer.GetAnswer());
+            answer.GetArray();
+            while (true)
+            {
+                Console.Write("А что если бы ");
+                Console.ReadLine();
+                Console.WriteLine(answer.GetAnswer());
+            }
         }
     }
 }
