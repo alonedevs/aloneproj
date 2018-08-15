@@ -10,7 +10,8 @@ namespace WWHI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, Guys");
+            Console.ReadLine();
+            Console.WriteLine(answer.GetAnswer());
         }
     }
 }
