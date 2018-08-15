@@ -9,7 +9,7 @@ namespace WWHI
 {
     class answer
     {
-        static string []Answers;
+        static string[] Answers = { };
         static void GetArray()
         {
             StreamReader fs = new StreamReader(@"answers.txt");
@@ -20,8 +20,12 @@ namespace WWHI
         }
         public static string GetAnswer()
         {
-
-            return null;
+            {
+                Random rnd = new Random();
+                return Answers[rnd.Next(0, Answers[].Lenght)];
+            }
         }
     }
 }
+
+
